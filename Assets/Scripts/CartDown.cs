@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pushing : MonoBehaviour {
+public class CartDown : MonoBehaviour {
 
-    private float timeTakenDuringLerp = 0.1f;
+    private float timeTakenDuringLerp = 4.0f;
     private Vector3 start;
     private Vector3 End;
     public float journeyLength = 3;
     private float Place = 0.0f;
     private bool IsLerping;
-    private Rigidbody rb;
 
 
     void Lerping()
@@ -18,7 +17,7 @@ public class Pushing : MonoBehaviour {
         IsLerping = true;
         Place = Time.time;
         start = transform.position;
-        End = transform.position + Vector3.forward * journeyLength;
+        End = transform.position + Vector3.down * journeyLength;
     }
 
     void FixedUpdate()
@@ -39,8 +38,6 @@ public class Pushing : MonoBehaviour {
         if (other.CompareTag("Player"))
         {
             Lerping();
-            rb = other.GetComponent<Rigidbody>();
-            rb.AddForce(Vector3.forward * 200000.0f);
         }
     }
 }
