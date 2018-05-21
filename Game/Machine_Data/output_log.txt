@@ -1,0 +1,55 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(TM) Graphics 540 (ID=0x1926)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   21.20.16.4627
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Games\Machine\Game\Machine_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Games\Machine\Game\Machine_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.104 seconds
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Games\Machine\Game\Machine_Data\Managed\System.dll (this message is harmless)
+desktop: 2736x1824 60Hz; virtual: 2736x1824 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.526608 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3370 -> priority: 1 
+  Thread -> id: 2a2c -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.177506 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1080.
+Total: 0.779594 ms (FindLiveObjects: 0.143304 ms CreateObjectMapping: 0.083014 ms MarkObjects: 0.509217 ms  DeleteObjects: 0.043130 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.456115 ms
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 22.846144 ms (FindLiveObjects: 0.052869 ms CreateObjectMapping: 0.047768 ms MarkObjects: 0.457739 ms  DeleteObjects: 22.286375 ms)
+
+<RI.Hid> Failed to create device file:
+ 20 The process cannot access the file because it is being used by another process.
+
+ 
+(Filename:  Line: 54)
+
+<RI.Hid> Failed to create device file:
+ 20 The process cannot access the file because it is being used by another process.
+
+ 
+(Filename:  Line: 54)
+
